@@ -15,7 +15,7 @@ function validateForm() {
     return false;
   }
 
-  if (/\d/.test(userNameValue)) {
+  if (!/^[a-zA-Z.\s]+$/.test(userNameValue)) {
     msg1.innerHTML = "Name must be character"
     setTimeout(function () {
       msg1.innerHTML = ""
