@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero,.hero-2,.hero-3,.hero-4,.hero-5{
+  height: 100vh;
+}
+
+.hero-2-right,.hero-2-left{
+  height: 100vh;
+}
+@media(max-width: 767px){
+  .hero,
+  .hero-2,.hero-3,.hero-4,.hero-5{
+      height:auto;
+  }
+}
+
+form .form-control:focus{
+    border-color: #ced4da;
+    box-shadow: none;
+  }
+#msg1{
+    color: red;
+}
+#msg{
+    color: green;
+}
